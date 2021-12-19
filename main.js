@@ -6,7 +6,7 @@ let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({width: 900, height: 680});
-  mainWindow.webContents.openDevTools();
+//   mainWindow.webContents.openDevTools();
   mainWindow.loadURL("http://localhost:3000");
                      
   app.setAboutPanelOptions({
