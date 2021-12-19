@@ -1,40 +1,43 @@
 {
-  "name": "code-ninja",
+  "name": "cody",
   "version": "1.0.0",
   "description": "simple code editor with react and electron",
   "main": "main.js",
-  "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gitdeepsingh/electron-boilerplate.git"
-  },
-  "keywords": [
-    "elctron",
-    "boilerplates"
-  ],
-  "author": "deepsingh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gitdeepsingh/electron-boilerplate/issues"
-  },
-  "homepage": "https://github.com/gitdeepsingh/electron-boilerplate#readme",
-  "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-react": "^7.16.0",
-    "babel-loader": "^8.2.3",
-    "css-loader": "^6.5.1",
-    "electron": "^16.0.3",
-    "file-loader": "^6.2.0",
-    "webpack": "^5.64.4",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.6.0",
-    "webpack-merge": "^5.8.0"
-  },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "app": "electron .",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^16.0.5"
   }
 }
