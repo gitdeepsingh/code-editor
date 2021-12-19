@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+import SplitPane from "react-split-pane";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        test
-      </header>
+      <SplitPane split="vertical" defaultSize="50%">
+        <div className="editor-pane">
+        </div>
+        <div className="view-pane">
+        </div>
+      </SplitPane>
     </div>
   );
 }

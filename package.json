@@ -5,6 +5,7 @@
   "main": "public/main.js",
   "homepage": "./",
   "dependencies": {
+    "@skidding/react-codemirror": "^1.0.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -13,6 +14,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "react-split-pane": "^0.1.92",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
@@ -48,15 +50,5 @@
     "electron": "^16.0.5",
     "electron-builder": "^22.14.5",
     "wait-on": "^6.0.0"
-  },
-  "build": {
-    "appId": "com.cody",
-    "files": [
-      "build/**/*",
-      "node_modules/**/*"
-    ],
-    "directories": {
-      "buildResources": "assets"
-    }
   }
 }
