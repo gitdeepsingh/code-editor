@@ -10,7 +10,7 @@ function createWindow() {
   mainWindow.loadURL("http://localhost:3000");
                      
   app.setAboutPanelOptions({
-    applicationName: "cody",
+    applicationName: "CODY",
     applicationVersion: "1.0.0",
   })
   
